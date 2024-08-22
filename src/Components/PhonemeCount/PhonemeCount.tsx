@@ -4,7 +4,8 @@ import myImage from "./copy.svg";
 
 function PhonemeCount() {
   const [text, setText] = useState<string>(`
-I've got sunshine on a cloudy day
+Yes it's true
+    I've got sunshine on a cloudy day
 And when it's cold outside,
 Well I've got the month of May
 I guess you say
