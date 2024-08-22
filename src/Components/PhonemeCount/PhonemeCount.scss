@@ -1,0 +1,43 @@
+textarea {
+  width: 400px;
+  height: 400px;
+}
+
+#container {
+  background-color: #f3fcf3;
+  border-radius: 25px;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 30px;
+}
+
+#input {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#output {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.end-row {
+  display: flex;
+  justify-content: end;
+}
+
+.copy-block {
+  width: 400px;
+  height: 400px;
+}
+
+.copy-block button {
+  /* background-image: url("./copy.svg");
+    background-repeat: no-repeat; */
+  z-index: 10;
+  position: absolute;
+  margin-top: 9px;
+  margin-right: 5px;
+}

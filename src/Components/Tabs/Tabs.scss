@@ -1,0 +1,21 @@
+.tab {
+  background-color: #cff1cf;
+  height: 50px;
+  width: 150px;
+  border-radius: 10px;
+  position: relative;
+  top: 10px;
+  //   z-index: -1;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &.active {
+    background-color: #f3fcf3;
+  }
+}
+
+.tab-text {
+  transform: translateY(-6px);
+}
