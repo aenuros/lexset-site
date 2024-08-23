@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://aenuros.github.io/lexset-site/",
+  "homepage": "https://aenuros.github.io/lexset-site",
   "proxy": "http://localhost:8080",
   "scripts": {
     "dev": "vite",
